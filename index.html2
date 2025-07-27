@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Vampire Association</title>
+	<style type="text/css">body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background-color: #1c1c1c;
+      color: #e0dede;
+    }
+    header {
+      background-color: #3b0000;
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      color: #ff4444;
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    .welcome {
+      background-color: #2c0000;
+      color: #ffcdd2;
+      padding: 10px;
+      margin: 20px auto;
+      text-align: center;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ff4444;
+    }
+    .login-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 40px auto;
+      width: 100%;
+    }
+    form {
+      background-color: #292929;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 0 15px #ff0000;
+    }
+    form h2 {
+      color: #ff4444;
+      margin-bottom: 20px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #1c1c1c;
+      border: 1px solid #ff4444;
+      color: white;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #ff4444;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #990000;
+      color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0d0d0d;
+      color: #666;
+      font-size: 0.8em;
+    }
+	</style>
+</head>
+<body>
+<header>
+<h1>The Vampire Association</h1>
+
+<p>Immortality begins with a choice...</p>
+</header>
+
+<div class="welcome">🩸 Welcome, traveler of the night. Your destiny awaits. Sign in and join the brotherhood.</div>
+
+<section class="login-section">
+<form action="">
+<h2>Login</h2>
+<input placeholder="Vampire ID" required="" type="text"/> <input placeholder="Secret Blood Code" required="" type="password" name="password"/> <input type="submit" value="Enter the Shadows"/> </form>
+</section>
+
+<footer>© 2025 Vampire Association. No garlic allowed.</footer>
+
+
+</body></html>
